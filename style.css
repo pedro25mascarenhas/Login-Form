@@ -1,0 +1,59 @@
+:root {
+  --text-base: #afb6c2;
+  --text-title: #d4ccb6;
+  --background: #191816;
+  --form-background: #24221f;
+  --primary-color: #ffc632;
+}
+
+* {
+  margin:0;
+}
+
+body {
+  background-color: var(--background);
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color:var(--text-base);
+  margin-top: 30px;
+  margin-left:30px;
+  background-image: url(images/side-image-2x.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50vw;
+  background-size:cover;
+}
+
+.form {
+  display:flex;
+}
+
+#login {
+  color:var(--text-title);
+  font-size:24px;
+}
+
+.column {
+  display:flex;
+  flex-direction: column;
+}
+
+.input{
+  width: 100%;
+  border:var(--text-base);
+  border-radius: 2px;
+  height: 20px;
+
+  outline:none;
+}
+
+#input-email {
+  background-image: url(images/mail.svg);
+  background-repeat: no-repeat;
+  
+}
+
+#input-senha {
+  background-image: url(images/lock.svg);
+  background-repeat: no-repeat;
+}
