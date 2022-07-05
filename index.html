@@ -1,61 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Login-Form</title>
-</head>
-<link rel="stylesheet" href="style.css">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login-Form</title>
+  </head>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-<body>
-  <main>
-    <img src="images/logo.svg" alt="">
-  </main>
-
-  <div class="form">
-    <form class="" action="" method="POST">
-      <div id="login">
-        <img src="images/log-in.svg" alt="" > 
-        Faça seu login
-      </div>
-
-      <div >
-        Entre com suas informações de contato.
-      </div>
-
-      <br>
-
-      <label for="e-mail">
-        E-mail
-      </label>
-      <input id="input-email" class="input" type="text" placeholder="Digite seu e-mail">
+  <body >
+    <div >
+      <img src="images/logo.svg" alt="" />
+    </div>
+    <main>
 
 
-      <label for="senha">
-        Senha
-      </label>
-      <input id= "input-senha" class="input" type="text" placeholder="Digite sua senha">
+      <section class="container">
+        <form class="" action="" method="POST">
+          <div id="login">
+            <img src="images/log-in.svg" alt="" />
+            Faça seu login
+          </div>
 
-      
+          <div>Entre com suas informações de contato.</div>
 
+          <br />
 
+          <label for="e-mail"> E-mail </label>
+          <input
+            id="input-email"
+            class="input"
+            type="text"
+            placeholder="Digite seu e-mail"
+          />
+          <br><br>
 
+          <label for="senha"> Senha </label>
+          <input
+            id="input-senha"
+            class="input"
+            type="text"
+            placeholder="Digite sua senha"
+          />
+          <br><br>
+          <div class="flex">
+            <input type="checkbox">
+            <label for="checkbox">
+              Lembre-me
+            </label>
+            <p>Esqueci minha senha</p>
+            
+          </div>
 
+          <button>Entrar</button>
 
-      
-    </form> 
-  </div>
+          <footer>
+            Não tem uma conta? <a href="">Registre-se</a>
+          </footer>
 
-
-
-</body>
+        </form>
+      </section>
+    </main>
+  </body>
 </html>

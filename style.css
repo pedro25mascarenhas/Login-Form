@@ -8,9 +8,11 @@
 
 * {
   margin:0;
+  padding: 0;
 }
 
 body {
+  display: flex;
   background-color: var(--background);
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
@@ -22,10 +24,35 @@ body {
   background-attachment: fixed;
   background-position: 50vw;
   background-size:cover;
+  width: 100%;
+  height: 100vh;
 }
 
-.form {
+main {
   display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  display:flex;
+  max-width: 1280px;
+  margin: 0 auto;
+
+}
+
+.logo {
+  display:flex;
+  flex-direction: column;
+}
+
+form {
+  background-color: var(--form-background);
+  max-width: 500px;
+  height: 250px;
+  padding: 30px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
 }
 
 #login {
@@ -57,3 +84,12 @@ body {
   background-image: url(images/lock.svg);
   background-repeat: no-repeat;
 }
+
+.flex{
+  display: flex;
+}
+
+form button {
+  text-align: center;
+}
+
